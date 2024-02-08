@@ -119,6 +119,7 @@ span {
     letter-spacing: 0.04em;
     color: #fff;
     border: none;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -136,7 +137,7 @@ span {
 
 .feature-description {
 
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -175,7 +176,7 @@ span {
     color: #2e2f42;
 }
 .team-list-description {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -201,7 +202,7 @@ span {
 }
 
 .portfolio-description {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -231,7 +232,7 @@ span {
     color: #f4f4fd;
 }
 .footer-description {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
