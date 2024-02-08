@@ -8,7 +8,7 @@
 Пропиши CSS-правила для скидання дефолтного підкреслення для посилань та маркерів у списках. */
 
 body {
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto','Raleway' sans-serif;
     color: #434455;
     background-color: #FFFFFF ;
 
@@ -22,8 +22,6 @@ a {
 }
 
 span {
-    margin: 0;
-    /* padding: 0; */
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -31,14 +29,13 @@ span {
     line-height: 1.16667;
     letter-spacing: 0.03em;
 }
-.logo>.logo-left {
+.heafer-logo-left {
     color: #4d5ae5;
 }
-.logo>.logo-right {
+.heafer-logo-right {
     color: #2e2f42;
 }
-.header-list>.header-item>a {
-    font-family: "Roboto", sans-serif;
+.nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -46,21 +43,65 @@ span {
     color: #2e2f42;
 }
 
-.adress-list>li>a {
-    font-family: "Roboto", sans-serif;
+.nav-link:hover {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+}
+
+.nav-link-studio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    border-color: #404bbf;
+
+}
+.nav-link-studio:hover {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+}
+
+.nav-link-studio:active {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+    text-decoration: underline;
+}
+
+.address-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    /* color: #434455; */
     font-style: normal  ;
 }
+
+.address-link:hover,
+.address-link:focus
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+}
+
+
 
 .main-part {
     background-color: #2e2f42;;
 }
 .main-title {
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07143;
@@ -71,8 +112,7 @@ span {
 
 .button {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
-    font-family: "Roboto", sans-serif;
+    background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -80,8 +120,13 @@ span {
     color: #fff;
     border: none;
 }
-.feature-list>li>h3 {
-    font-family: "Roboto", sans-serif;
+
+.button:hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #404bbf;
+}
+
+.feature-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -89,37 +134,39 @@ span {
     color: #2e2f42;
 }
 
-.feature-list>li>h3+p {
+.feature-description {
 
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    /* color: #434455; */
 }
 
 .team {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
-    color: #2e2f42;
+    background-color: #f4f4fd;
+
 }
 .team-list {
     background-color: #f4f4fd;
 }
 
-.team-list>li {
+.team-list-item {
     background-color: #fff;
 
 }
 
-.team-list>li>img+h3 {
-    font-family: "Roboto", sans-serif;
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;;
+}
+
+.team-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -127,17 +174,15 @@ span {
     text-align: center;
     color: #2e2f42;
 }
-.team-list>li>img+h3+p {
-    font-family: "Roboto", sans-serif;
+.team-list-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #434455;
+    /* color: #434455; */
 }
-.portfolio>h2 {
-    font-family: "Roboto", sans-serif;
+.main-portfolio-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
@@ -147,8 +192,7 @@ span {
     color: #2e2f42;
 }
 
-.portfolio-list>li>img+h3 {
-    font-family: "Roboto", sans-serif;
+.portfolio-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -156,21 +200,29 @@ span {
     color: #2e2f42;
 }
 
-.portfolio-list>li>img+h3+p {
-    font-family: "Roboto", sans-serif;
+.portfolio-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    /* color: #434455; */
 }
 
 .bottom-part {
     background-color: #2e2f42;;
 }
-
-.logo-right-bottom {
+.footer-logo-left {
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+
+.footer-logo-right {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
@@ -178,8 +230,7 @@ span {
     text-transform: uppercase;
     color: #f4f4fd;
 }
-.bottom-part>.logo+p {
-    font-family: "Roboto", sans-serif;
+.footer-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
